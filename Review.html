@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SpringPeople</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+	</script>
+	<link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+	<!-- ======= Header ======= -->
+	<header id="header" class="header">
+		<div class="container container-xl d-flex align-items-center justify-content-between">
+
+			<a href="index.html" class="logo d-flex align-items-center">
+				<img src="img/logo.png" class="img-logo" alt="">
+			</a>
+
+		</div>
+	</header><!-- End Header -->
+	<main class="page-checkout">
+		<div class="container headingContainer">
+			<div class="flex-container">
+				<div>
+
+
+
+					<img src="img/cassandra.png" alt="Apache Cassandra Logo" class="course_logo">
+				</div>
+				<div class="course-title">
+					<h1 class="apacheHeading">Apache Cassandra Training</h1>
+
+					<p class="apachetimings">27-Jun-2022 to 29-Jun-2022, 09:00 AM to 05:00 PM, Live Online </p>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="container pt-1">
+
+			<div class="table-responsive">
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th class="text-center headtext"><i class="fa fa-users"
+									style="font-size: 1.5em;padding-right: 5px;" aria-hidden="true"></i>Trainee Details
+							</th>
+							<th class="text-center headtext"><i class="fa fa-credit-card"
+									style="font-size: 1.5em;padding-right: 5px;" aria-hidden="true"></i>Billing
+								Information</th>
+							<th class="text-center activeHead"><i class="fa fa-inr"
+									style="font-size: 1.5em;padding-right: 5px;" aria-hidden="true"></i>Review and
+								Payment</th>
+						</tr>
+					</thead>
+
+				</table>
+
+			</div>
+
+
+			<div class="table-responsive tab-container">
+				
+                <div class="review-payments">
+                    <p class="review-payments__trainee">Trainee Details <a id="trainee_edit" href="#" onclick="window.open('./index.html')">EDIT</a></p>
+                    <ol id="traineesList"><li>      <div class="review-payments__container">        <div class="review-payments__item3">          <div class="review-payments__item2">            <div class="review-payments__item1">hygf<span class="fa fa-minus icon-view"></span></div>            <div class="review-payments__item1">fghjf</div>          </div>          <div class="review-payments__item1">            <span class="fa fa-envelope"></span>Tej123@gmail.com          </div>        </div>        <div class="review-payments__item1">          <span class="fa fa-mobile-phone icon-size"></span>+918310296885        </div>        <div class="review-payments__item1 own-laptop-info">          <span class="fa fa-check-circle text-green icon-size"></span> I will bring my own laptop        </div>      </div>      <input type="hidden" name="trainee[first_name][0]" value="hygf">      <input type="hidden" name="trainee[job_title][0]" value="fghjf">      <input type="hidden" name="trainee[email][0]" value="Tej123@gmail.com">      <input type="hidden" name="trainee[code][0]" value="+91">      <input type="hidden" name="trainee[mobile][0]" value="8310296885">      <input type="hidden" name="trainee[laptop_required][0]" value="True">    </li></ol>
+                </div>
+
+			</div>
+            <div class="table-responsive tab-container" style="margin-top: 10px;">
+				
+	
+
+			</div>
+            <div class="table-responsive tab-container" style="margin-top: 10px;">
+				
+	
+
+			</div>
+
+
+			<div class="biling-section">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" checked="" required="">
+                        Yes, I have read, understood and agree to the <a href="https://www.springpeople.com/terms-and-conditions" target="_blank">Terms &amp; Conditions.</a>
+                    </label>
+                </div>
+				<button type="submit" id="add_billing_info" class="btn btn-pink billing-info-action collapse"
+					data-parent="#checkoutTab-accordion" data-toggle="collapse" href="#billing-collapse" role="tab"
+					aria-controls="profile" aria-selected="false">MAKE PAYMENT&nbsp;<i
+						class="fa fa-arrow-circle-right" style="font-size: 1.5em;padding-right: 5px;"></i></button>
+			</div>
+		</div>
+
+	</main>
+	<!-- ======= Footer ======= -->
+	<footer class="checkout-footer">
+		<div class="container d-flex align-items-center justify-content-center">
+			<div class="row">
+				<div class="col">
+					<p class="copyright-text d-flex align-items-center justify-content-center ">
+						Copyright &nbsp;<i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;SpringPeople. All Rights
+						Reserved.
+					</p>
+					<p class="copyright-text registered-text">
+						SpringPeople<sup><i class="fa fa-registered" aria-hidden="true"></i></sup> &nbsp; is the
+						registered trademark of SpringPeople Software Private Limited
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+
+</body>
+
+</html>
+<script src="./js/script.js">
+	
+</script>
